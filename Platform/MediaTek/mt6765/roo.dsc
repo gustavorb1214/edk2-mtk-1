@@ -16,13 +16,13 @@
   GCC:*_*_AARCH64_CC_FLAGS = -DENABLE_SIMPLE_INIT
 
 [PcdsFixedAtBuild.common]
-  gMediaTekTokenSpaceGuid.PcdMipiFrameBufferWidth|736
-  gMediaTekTokenSpaceGuid.PcdMipiFrameBufferHeight|1440
+  gMediaTekTokenSpaceGuid.PcdMipiFrameBufferWidth|2340
+  gMediaTekTokenSpaceGuid.PcdMipiFrameBufferHeight|1080
   gMediaTekTokenSpaceGuid.PcdMipiFrameBufferAddress|0x7bee0000
 
   # Simple Init
   gSimpleInitTokenSpaceGuid.PcdGuiDefaultDPI|400
 
-  gRenegadePkgTokenSpaceGuid.PcdDeviceVendor|"HMD Global"
-  gRenegadePkgTokenSpaceGuid.PcdDeviceProduct|"Nokia 3.1 Plus"
-  gRenegadePkgTokenSpaceGuid.PcdDeviceCodeName|"roo"
+  gRenegadePkgTokenSpaceGuid.PcdDeviceVendor|"Xiaomi lineup"
+  gRenegadePkgTokenSpaceGuid.PcdDeviceProduct|"Redmi 9"
+  gRenegadePkgTokenSpaceGuid.PcdDeviceCodeName|"cattail"
